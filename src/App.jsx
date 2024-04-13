@@ -7,7 +7,7 @@ import Dashboard from "./components/Dashboard";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Role from "./components/Role";
-import Canvas from "./components/Canvas";
+// import Canvas from "./components/Canvas";
 // import Movies from "./components/Movies";
 // import TvShows from "./components/TvShows";
 
@@ -35,7 +35,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
             <Route path="/role" element={<Role />} />
-            <Route path="/canvas" element={<Canvas/>}/>
+            {/* <Route path="/canvas" element={<Canvas/>}/> */}
           </Routes>
         </Router>
       </CourseProvider>
@@ -43,4 +43,4 @@ function App() {
   );
 }
 
-export default Canvas;
+export default App;
