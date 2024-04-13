@@ -27,7 +27,7 @@ const Navbar = () => {
             className="m-3 p-2 font-extrabold text-xl text-cyan-600"
             style={{ fontFamily: "DynaPuff" }}
           >
-            V-APP
+            Peer-2-peer
           </div>
         </div>
 
@@ -46,6 +46,9 @@ const Navbar = () => {
             <li className="hover:bg-slate-400 font-bold text-sm md:text-xl ">
               <NavLink to="/t"> TV Series</NavLink>
             </li> */}
+            {
+
+            }
             <li className="hover:bg-slate-400 font-bold text-sm md:text-xl ">
               <NavLink to="/signup"> SignUp</NavLink>
             </li>
@@ -71,11 +74,7 @@ const Navbar = () => {
             </select>
           </ul>
         </div>
-        {/* <div className="md:flex md:items-center font-bold">
-          <button className="  bg-blue-500 rounded-md text-sm md:text-xl px-4 mx-2 hover:bg-blue-500 ">
-            Sign in
-          </button>
-        </div> */}
+        
         <div className="md:hidden justify-self-start" onClick={handleToggle}>
           {!toggleMenu && (
             <i className=" fa-solid fa-bars cursor-pointer md:hidden" />
